@@ -19,7 +19,7 @@ a.pedido {
 }
 .pedidos .ped {
   border-radius: 20px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.637);
+  box-shadow: 0 0 10px #ffffff54;
   padding: 20px 0;
   padding-bottom: 0;
 }
@@ -31,7 +31,7 @@ a.pedido {
   color: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #f51d1d1f;
+  background-color: #f51d1d0a;
 }
 
 .pedidos button:hover {
@@ -67,8 +67,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: color;
-  background-color: #000000cc;
 }
 
 .atividades-agendadas {

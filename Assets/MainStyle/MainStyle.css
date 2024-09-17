@@ -169,7 +169,7 @@ a.inicio{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 20px 0;
     align-items: center;
     height: 600px;
     background: url(../imgs/consulta.jpg);
