@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    border: none;
+    
+}
+
+.txt h1{
+    font-weight: bold;
+    font-size: 80px;
+}
+a.inicio{
+    color: #f51d1da9;
+}
+header{
+    color: white;
+    overflow: hidden;
+  padding-top: 10px;
+}
+
+.desktop i{
+    font-size: 25px;
+}
+.container-desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+body{
+    font-family: "SUSE", sans-serif;
+}
+.desktop{
+    display: flex;
+    gap: 50px;
+}
+
+.dot{
+    color: red;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;   
+}
+
+.desktop a{
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+}
+
+a.inicio{
+    color: #f51d1da9;
+    text-decoration: underline;
+    text-decoration-color: #f51d1da9;
+}
+
+
+.desktop a:hover{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-decoration: underline;
+    color: #f51d1da9;
+    text-decoration-color: #f51d1da9;
+}
+
+.primeira{
+    background: url(../imgs/primeira\ \(1\).jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: #000000be;
+}
+
+.txt{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    color: white;
+}
+
+.txt div{
+    padding: 0 300px;
+}
+ 
+.txt p{
+    margin-top: 20px;
+}
+
+.txt button{
+    background-color: #7a0c0c67;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.txt button:hover{
+    padding: 10px 100px;
+    border: none;
+    border-radius: 20px;
+}
+
+.segundo{
+    margin-bottom: 100px;
+    text-align: center;
+    padding:20px;
+}
+
+.servicos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.item{
+    font-size: 10px;
+    padding:0 100px;
+    margin-bottom: 20px;
+}
+.segundo h1{
+    font-weight: bold;
+    margin: 40px 0;
+    
+}
+.servicos img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.servicos a:hover{
+    padding: 5px 40px;
+}
+
+
+.btn-marcar{
+    background-color: #460e0e;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
+    font-size: 15px;
+}
+
+.btn-marcar:hover{
+    padding: 10px 40px;
+}
+
+.terceiro{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+    height: 600px;
+    background: url(../imgs/consulta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: #000000cc;
+    margin-bottom: 200px;
+}
+
+.terceiro h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+   
+}
+
+.terceiro .form{
+    width: 500px;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.form input, textarea{
+    width: 100%;
+    border-radius: 50px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 20px;
+}
+
+
+.form button{
+    margin-top: 10px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 5px 10px;
+    transition: 1S;
+}
+
+
+.form button:hover{
+    border-bottom: 1px solid white;
+    padding: 5px 100px;
+}
+.terceiro input{
+    margin-bottom: 20px;
+}
+
+.quarto{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.nome{
+    font-weight: bold;
+}
+
+.quarto h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.pessoas{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.dizeres{
+    font-style: italic;
+}
+
+.pessoa{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px black;
+}
+
+.estrelas i{
+ color: goldenrod;
+    font-size: 30px;
+}
+.pessoas img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+.copy{
+    text-align: center;
+}
+@media screen and (max-width:1024px){
+   
+.servicos{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+}

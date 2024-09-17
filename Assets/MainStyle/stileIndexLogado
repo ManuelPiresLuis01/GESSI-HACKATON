@@ -1,0 +1,16 @@
+.desktop a{
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    transition: .5s;
+}
+
+
+.desktop a:hover{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    background-color: purple;
+    border-radius: 30px;
+}

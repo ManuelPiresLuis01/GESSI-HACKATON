@@ -1,0 +1,92 @@
+
+header{
+  margin-bottom: 100px;
+}
+body {
+  color: white;
+}
+
+a.pedido {
+  color: #f51d1da9;
+}
+
+.pedidos {
+  text-align: center;
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pedidos .ped {
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.637);
+  padding: 20px 0;
+  padding-bottom: 0;
+}
+
+.pedidos button {
+  width: 100%;
+  padding: 20px 0;
+  background: none;
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #f51d1d1f;
+}
+
+.pedidos button:hover {
+  width: 100%;
+  padding: 20px 0;
+  background: none;
+  color: white;
+  background-color: #f51d1d5b;
+}
+
+body{
+  background: url(../imgs/ask.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
+  background-color: #000000cc;
+}
+
+.alimento {
+  width: 300px;
+  height: 400px;
+  background: url(../imgs/food.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.medicamentos {
+  width: 300px;
+  height: 400px;
+  background: url(../imgs/medication.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
+  background-color: #000000cc;
+}
+
+.atividades-agendadas {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.Atividades {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  margin: 10px 0;
+  margin-bottom: 0;
+  background-color: #000000;
+}
+
+.atividades-agendadas h3{
+    padding-top: 10px;
+   margin-bottom: 30px;
+   font-weight: bold;
+}

@@ -1,0 +1,28 @@
+.body{
+    background: url(../imgs/donate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: #000000cb;
+    padding-bottom:50px ;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.agendar{
+    color: #f51d1da9;
+}
+
+.terceiro{
+    background: none;
+    height: 80vh;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+}

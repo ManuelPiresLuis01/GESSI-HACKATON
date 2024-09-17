@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    border: none;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.body{
+    font-family: "SUSE", sans-serif;
+    background: url(../imgs/donate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: #000000cb;
+    padding-bottom:50px ;
+}
+
+a.doar{
+    color: #f51d1da9;
+}
+
+.inform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    margin: 0 30%;
+    margin-top: 10vh;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.inform p{
+    font-size: 20px;
+}
+
+.inform button{
+    background-color: #7a0c0c67;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.inform button:hover{
+    padding: 10px 100px;
+    border: none;
+    border-radius: 20px;
+}
+
+.tiposDoacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 200px;
+}
+
+.tiposDoacoes div{
+    position: relative;
+    padding: 10px;
+    color: white;
+    width: 300px;
+    border-radius: 20px;
+    height: 350px;
+    background-color: #000000e1;
+    text-align: center;
+}
+
+
+.tiposDoacoes div p{
+  height: 100%;
+  display: flex;
+justify-content: center;
+margin-top: 80px;
+}
+
+.tiposDoacoes button{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    right: 5px;
+    background: none;
+    color: white;
+    transition: 1s;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #7a0c0c10;
+}
+
+
+.tiposDoacoes button:hover{
+   background-color: #7a0c0c67;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+}
